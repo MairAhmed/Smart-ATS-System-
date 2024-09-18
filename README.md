@@ -39,7 +39,8 @@ venv\Scripts\activate
 # Install Dependencies:
 After setting up the virtual environment, install the required dependencies using the requirements.txt file:
 
-pip install -r requirements.txt
+
+      pip install -r requirements.txt
 
 
 # Configure Environment Variables: 
@@ -49,12 +50,13 @@ Create a .env file in the root directory of the project.
 
 Add the following content to the .env file
 
-GOOGLE_API_KEY=your_api_key_here
+      GOOGLE_API_KEY=your_api_key_here
 
 
 # Run the Application: 
 Start the Streamlit app by running the following command:
 
+ ```bash
 streamlit run app.py
 
 
