@@ -27,13 +27,13 @@ Follow these steps to set up the project on your local machine.
    cd <your-repository>
 
 # Create a virtual environment
-python -m venv venv
+    python -m venv venv
 
 # Activate the virtual environment
 # For macOS/Linux
-source venv/bin/activate
+    source venv/bin/activate
 # For Windows
-venv\Scripts\activate
+    venv\Scripts\activate
 
 
 # Install Dependencies:
@@ -56,8 +56,8 @@ Add the following content to the .env file
 # Run the Application: 
 Start the Streamlit app by running the following command:
 
- ```bash
-streamlit run app.py
+
+     streamlit run app.py
 
 
 
